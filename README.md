@@ -3,11 +3,11 @@
 Pour chaque lab, se placer à la racine et lancer les commandes suivants
 
 # Previsualiser les ressources qui vont être créées
-terraform plan
+terraform plan -out savetf
 
 # Enteriner ou appliquer la creation et valider avec "yes"
 
-terraform apply
+terraform apply "savetf"
 
 # supprimer les ressources avec 
 terraform destroy
