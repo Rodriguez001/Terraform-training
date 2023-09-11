@@ -7,9 +7,9 @@ terraform init
 # Previsualiser les ressources avant application sur le cloud provider
 terraform plan -out savetf
 
-# Enteriner ou appliquer la creation et valider avec "yes"
+# Enteriner ou appliquer la creation
 
 terraform apply "savetf"
 
-# supprimer les ressources avec 
+# supprimer les ressources 
 terraform destroy
